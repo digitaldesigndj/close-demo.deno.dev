@@ -1,0 +1,120 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Cherry+Swash&display=swap'); */
+/* :root {
+  --red: rgb(210,81,153);
+  --orange: rgb(249,108,98);
+  --yellow: rgb(254,245,121);
+  --green: rgb(160,235,177);
+  --blue: rgb(0,190,211);
+  --indigo: rgb(0,153,212);
+  --violet: rgb(150,117,180);
+  --dark: rgb(15,15,15);
+}
+@media (min-width: 510px) {
+  .navigation {
+    display: flex;
+  }
+}
+.cool-shadow {
+  border-color: var(--orange);
+  box-shadow: 4px 2px 0 var(--yellow);
+  display: block;
+}
+.cool-shadow:hover {
+  background: var(--dark)
+}
+.cool-shadow:active {
+  background: var(--violet);
+  box-shadow: 0 0 0 var(--yellow);
+  position: relative;
+  top: 2px;
+  left: 4px;
+} */
+
+
+.List {
+  margin: 16px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-auto-rows: 60px;
+  grid-gap: 16px;
+}
+
+.List__item {
+  cursor: pointer;
+  line-height: 60px;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.05);
+  border: 2px solid transparent
+}
+
+.List__item.selected {
+  border: 2px dashed blue
+}
+
+/* Taken from https://clrs.cc/ */
+
+.List__item--navy {
+  background-color: #001f3f;
+}
+
+.List__item--blue {
+  background-color: #0074d9;
+}
+
+.List__item--aqua {
+  background-color: #7fdbff;
+}
+
+.List__item--teal {
+  background-color: #39cccc;
+}
+
+.List__item--olive {
+  background-color: #3d9970;
+}
+
+.List__item--green {
+  background-color: #2ecc40;
+}
+
+.List__item--lime {
+  background-color: #01ff70;
+}
+
+.List__item--yellow {
+  background-color: #ffdc00;
+}
+
+.List__item--orange {
+  background-color: #ff851b;
+}
+
+.List__item--red {
+  background-color: #ff4136;
+}
+
+.List__item--maroon {
+  background-color: #85144b;
+}
+
+.List__item--fuchsia {
+  background-color: #f012be;
+}
+
+.List__item--purple {
+  background-color: #b10dc9;
+}
+
+.List__item--black {
+  background-color: #111111;
+}
+
+.List__item--gray {
+  background-color: #aaaaaa;
+}
+
+.List__item--silver {
+  background-color: #dddddd;
+}
