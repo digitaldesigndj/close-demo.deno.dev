@@ -74,6 +74,15 @@ export default function Home() {
         <title>Fresh App</title>
       </Head>
       <div>
+        <p>
+          It takes a couple seconds to load the JS on Deno.Dev free hosting.
+          Self hosted is faster.
+        </p>
+        <p>
+          <a href="https://github.com/digitaldesigndj/close-demo.deno.dev">
+            Source Code
+          </a>
+        </p>
         <List items={items} />
       </div>
     </>
