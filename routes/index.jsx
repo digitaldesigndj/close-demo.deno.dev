@@ -74,8 +74,9 @@ export default function Home() {
       </Head>
       <div>
         <p>
-          It takes a couple seconds to load the JS on Deno.Dev free hosting.
-          Self hosted first load is faster than this free stuff.
+          It takes a couple seconds to load the JS (Hydrate the islands?) on
+          Deno.Dev free hosting. Self hosted and local first load is way faster
+          than on this free stuff.
         </p>
         <p>
           <a href="https://github.com/digitaldesigndj/close-demo.deno.dev">
