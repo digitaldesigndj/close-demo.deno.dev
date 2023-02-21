@@ -17,9 +17,7 @@ export default function ColorButton(props) {
         }
       }}
       key={index}
-      className={`List__item List__item--${item.color} ${
-        selected ? "selected" : ""
-      }`}
+      className={`List__item bg--${item.color} ${selected ? "selected" : ""}`}
     >
       {item.name}
     </li>

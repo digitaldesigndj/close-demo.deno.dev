@@ -1,7 +1,6 @@
 import { Head } from "$fresh/runtime.ts";
 import ColorButton from "@/islands/ColorButton.jsx";
 import ColorsList from "@/islands/ColorsList.jsx";
-// import { selected_colors } from "@/utils/selected_colors.js";
 
 const List = ({ items }) => (
   <>
@@ -71,7 +70,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Fresh App</title>
+        <title>Close Demo App</title>
       </Head>
       <div>
         <p>

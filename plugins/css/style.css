@@ -1,37 +1,24 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Cherry+Swash&display=swap'); */
-/* :root {
-  --red: rgb(210,81,153);
-  --orange: rgb(249,108,98);
-  --yellow: rgb(254,245,121);
-  --green: rgb(160,235,177);
-  --blue: rgb(0,190,211);
-  --indigo: rgb(0,153,212);
-  --violet: rgb(150,117,180);
-  --dark: rgb(15,15,15);
+:root {
+  --navy: #001f3f;
+  --blue: #0074d9;
+  --aqua: #7fdbff;
+  --teal: #39cccc;
+  --olive: #3d9970;
+  --green: #2ecc40;
+  --lime: #01ff70;
+  --yellow: #ffdc00;
+  --orange: #ff851b;
+  --red: #ff4136;
+  --maroon: #85144b;
+  --fuchsia: #f012be;
+  --purple: #b10dc9;
+  --black: #111111;
+  --gray: #aaaaaa;
+  --silver: #dddddd;
 }
-@media (min-width: 510px) {
-  .navigation {
-    display: flex;
-  }
-}
-.cool-shadow {
-  border-color: var(--orange);
-  box-shadow: 4px 2px 0 var(--yellow);
-  display: block;
-}
-.cool-shadow:hover {
-  background: var(--dark)
-}
-.cool-shadow:active {
-  background: var(--violet);
-  box-shadow: 0 0 0 var(--yellow);
-  position: relative;
-  top: 2px;
-  left: 4px;
-} */
-
 
 .List {
+  cursor: pointer;
   margin: 16px;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
@@ -50,71 +37,84 @@
 }
 
 .List__item.selected {
-  border: 2px dashed blue
+  border: 2px dashed var(--blue);
+  box-shadow: 2px 2px 0 var(--black);
 }
 
-/* Taken from https://clrs.cc/ */
-
-.List__item--navy {
-  background-color: #001f3f;
+.selected-colors {
+  position: fixed;
+  background: white;
+  padding: 1rem;
+  border: 2px dashed var(--blue);
+  box-shadow: 2px 2px 0 var(--black);
 }
 
-.List__item--blue {
-  background-color: #0074d9;
+.bg--navy {
+  background-color: var(--navy)
 }
 
-.List__item--aqua {
-  background-color: #7fdbff;
+.bg--blue {
+  background-color: var(--blue)
 }
 
-.List__item--teal {
-  background-color: #39cccc;
+.bg--aqua {
+  background-color: var(--aqua)
 }
 
-.List__item--olive {
-  background-color: #3d9970;
+.bg--teal {
+  background-color: var(--teal)
 }
 
-.List__item--green {
-  background-color: #2ecc40;
+.bg--olive {
+  background-color: var(--olive)
 }
 
-.List__item--lime {
-  background-color: #01ff70;
+.bg--green {
+  background-color: var(--green)
 }
 
-.List__item--yellow {
-  background-color: #ffdc00;
+.bg--lime {
+  background-color: var(--lime)
 }
 
-.List__item--orange {
-  background-color: #ff851b;
+.bg--yellow {
+  background-color: var(--yellow)
 }
 
-.List__item--red {
-  background-color: #ff4136;
+.bg--orange {
+  background-color: var(--orange)
 }
 
-.List__item--maroon {
-  background-color: #85144b;
+.bg--red {
+  background-color: var(--red)
 }
 
-.List__item--fuchsia {
-  background-color: #f012be;
+.bg--maroon {
+  background-color: var(--maroon)
 }
 
-.List__item--purple {
-  background-color: #b10dc9;
+.bg--fuchsia {
+  background-color: var(--fuchsia)
 }
 
-.List__item--black {
-  background-color: #111111;
+.bg--purple {
+  background-color: var(--purple)
 }
 
-.List__item--gray {
-  background-color: #aaaaaa;
+.bg--black {
+  background-color: var(--black)
 }
 
-.List__item--silver {
-  background-color: #dddddd;
+.bg--gray {
+  background-color: var(--gray)
 }
+
+.bg--silver {
+  background-color: var(--silver)
+}
+
+
+
+
+
+
